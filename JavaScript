@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="StyleSheet" href="./style.css">
+    
+</head>
+
+<body>
+
+    <script>
+        let calculation = '';
+    </script>
+
+    <div id="Calculator">
+        <div id = "Empty">
+            
+        </div>
+        <button class="Calculation" onclick="
+         calculation += '1'; console.log(calculation);
+        ">
+            1
+        </button>
+        <button class="Calculation" onclick="
+        calculation += '2'; console.log(calculation);
+        ">
+            2
+        </button>
+        <button class="Calculation" onclick="
+        calculation += '3'; console.log(calculation);
+        ">
+            3
+        </button>
+        <button class="Calculation" onclick=" 
+        calculation += '+'; console.log(calculation);">
+            +
+        </button>
+        <button class="Calculation" onclick="
+        calculation = 0; console.log(calculation);
+        ">
+            C
+        </button> <br>
+        <button class="Calculation" onclick="
+        calculation += '4'; console.log(calculation);
+        ">
+            4
+        </button>
+        <button class="Calculation" onclick="
+        calculation += '5'; console.log(calculation);
+        ">
+            5
+        </button>
+        <button class="Calculation" onclick="
+        calculation += '6'; console.log(calculation);
+        ">
+            6
+        </button>
+        <button class="Calculation" onclick=" 
+        calculation += '-'; console.log(calculation);
+        ">
+            -
+        </button>
+        <button class="Calculation" onclick=" 
+        calculation += '/'; console.log(calculation);
+        ">
+            ÷
+        </button> <br>
+        <button class="Calculation" onclick="
+        calculation += '7'; console.log(calculation);
+        ">
+            7
+        </button>
+        <button class="Calculation" onclick="
+        calculation += '8'; console.log(calculation);
+        ">
+            8
+        </button>
+        <button class="Calculation" onclick="
+        calculation += '9'; console.log(calculation);
+        ">
+            9
+        </button>
+        <button class="Calculation" onclick=" 
+        calculation += '*'; console.log(calculation);
+        ">
+            ×
+        </button>
+        <button class = "Calculation" onclick = " 
+            calculation += '%'; console.log(calculation);
+            ">
+            % 
+        </button>
+         <br>
+        <button id = "Zero" onclick = " 
+            calculation += '0'; console.log(calculation);
+            ">
+            0 
+        </button>
+        <button id = "Equal" onclick="
+        calculation = eval(calculation); console.log(calculation);
+        ">
+            =
+        </button>
+    </div>
+    <!--https://supersimple.dev/projects/calculator/-->
+</body>
+
+</html>
