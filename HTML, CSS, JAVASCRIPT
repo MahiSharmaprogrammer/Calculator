@@ -1,0 +1,24 @@
+# JavaScript Calculator
+
+A simple calculator built using HTML, CSS, and JavaScript.
+
+## Features
+- Addition (+)
+- Subtraction (-)
+- Multiplication (×)
+- Division (÷)
+- Percentage (%)
+- Clear (C)
+- Responsive UI
+
+## Technologies Used
+- HTML5
+- CSS3
+- JavaScript
+
+## What I Learned
+- DOM Manipulation
+- Event Handling
+- JavaScript Variables
+- Debugging
+- Building interactive web applications
